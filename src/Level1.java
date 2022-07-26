@@ -1,4 +1,4 @@
-public class IntroEx1 {
+public class Level1 {
     public static int squirrel(int n) {
         long num = 1;
 
