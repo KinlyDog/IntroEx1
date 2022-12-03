@@ -1,11 +1,11 @@
 public class Level1 {
     public static int squirrel(int n) {
-        long num = 1;
+        long factorial = 1;
 
         for (int i = 1; i <= n; i++) {
-            num *= i;
+            factorial *= i;
         }
-        String s = String.valueOf(num);
+        String s = String.valueOf(factorial);
 
         return Character.getNumericValue(s.charAt(0));
     }
